@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.enjamamulhoque.servicesfeature">
+    package="com.enjamamulhoque.services">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ServicesFeature">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.enjamamulhoque.services.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +18,7 @@
         </activity>
 
         <!-- add services to manifest file -->
-        <service android:name=".MyService"/>
+        <service android:name="com.enjamamulhoque.services.MyService"/>
 
     </application>
 

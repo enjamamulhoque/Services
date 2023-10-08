@@ -1,4 +1,4 @@
-package com.enjamamulhoque.servicesfeature;
+package com.enjamamulhoque.services;
 
 import org.junit.Test;
 
